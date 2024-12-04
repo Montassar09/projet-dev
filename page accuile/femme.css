@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.9;
+  }
+  header {
+    background: #333333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    
+  }
+
+  
+ .logo {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding-top: 5px;
+  }
+
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    gap: 17px;
+ 
+    
+  }
+  
+  header nav ul li {
+    margin-left: 20px;
+    
+    
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    
+    
+  }
+  header nav ul li :hover{
+  text-decoration: underline;
+    
+  }
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 700px;
+  }
+  
+  .search-bar input[type="text"] {
+    width: 40%;
+    margin-left: 10rem;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px 8px 8px 8px;
+    font-size: 16px;
+    outline: none;
+    transition: width 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .search-bar input[type="text"]:hover {
+    width: 80%;
+    border-color: #333;
+    transition: width 0.5s ease, border-color 0.3s ease;
+  }
+  
+  .search-bar button , .inscrire {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-bar button:hover {
+    background-color: #555;
+    color: #ddd;
+  }
+  .inscrire{
+    font-style: none;
+    background-color: #333;
+    color: white;
+    font-size: 20px;
+    outline: none;
+    transition: width 0.3s ease, border-color 0.3s ease;
+    margin-right: 50px;
+    padding: 0 0 0 0;
+  
+  }
+  .inscrire :hover {
+    background-color: #333;
+    color: #ddd;
+    transition: width 0.5s ease, border-color 0.3s ease;
+  }
+  .menu{
+    font-style: none;
+    background-color: #333;
+    color: white;
+    font-size: 25px;
+    outline: none;
+    transition: width 0.5s ease, border-color 0.3s ease;
+    padding-right: 40px;
+  }
+  .menu :hover {
+    background-color: #333;
+    color: #ddd;
+    transition: width 0.5s ease, border-color 0.3s ease;
+  }
+  .btn-buy{
+    color: rgb(0, 0, 0);
+    font-size:20px;
+    cursor: pointer;
+    text-decoration: none;
+    border: solid;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
