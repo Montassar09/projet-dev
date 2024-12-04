@@ -13,7 +13,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: rgb(219, 219, 219);
+    background: #333;
 
 }
 #form{
