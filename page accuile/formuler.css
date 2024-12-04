@@ -1,0 +1,164 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: 0px;
+    border: none;
+    box-sizing: border-box;
+    font-family:'Poppins','sans-serif';
+    outline: none;
+    text-decoration: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(219, 219, 219);
+
+}
+#form{
+    width: 500px;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 10px 20px 30px rgba(0,0,0,0.1);
+    
+
+}
+h1{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin-bottom:2rem ;
+    transition: 0.3s;
+}
+h1:hover{
+    color: #322f3b;
+    cursor:help;
+}
+label{
+    display: block;
+    margin: 10px 0px 5px 0px ;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+input{
+    width: 90%;
+    font-size: 15px;
+    border-bottom: 2px solid #333;
+    cursor:text;
+    transition: 0.4s;
+
+}
+input[type="checkbox"]{
+    width: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    transition: 0.4s;
+
+}
+input:hover{
+    font-size: large;
+}
+button{
+    background: #333;
+    border: 1px solid #333(12, 188, 156, 0.93);
+    border-radius: 10px;
+    padding: 8px;
+    width: 90%;
+    text-transform: uppercase;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 15px;
+    font-size: 14px;
+}
+button:hover{
+    background-color: rgb(255, 255, 255);
+    color: #333;
+}
+#b2{
+    background: transparent;
+    color: rgb(130, 130, 130);
+    width: 110px;
+    border: 2px solid rgba(198, 188, 188, 0.703);
+    margin: 10px;
+    margin-top: 20px;
+    margin-left: 90px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    transition: 0.9s;
+
+}
+#b3{
+    background: transparent;
+    color: rgb(130, 130, 130);
+    width: 110px;
+    border: 2px solid rgba(198, 188, 188, 0.703);
+    margin: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    transition: 0.9s;
+
+}
+#b3:hover{
+    background: #333;
+    color: white;
+}
+#b2:hover{
+    background: #333;
+    color: white;
+}
+#n{
+    transition: 0.5s;
+}
+
+#n:hover{
+    color: #187b70;
+}
+
+
+#inst{
+    color: black;
+    font-size: 40px;
+    padding-left: 80px;
+    margin: 10px;
+}
+#fcb{
+    color: black;
+    font-size: 40px;
+    padding-left: 30px;
+    margin: 10px;
+    transition: 0.5s;
+    
+}
+#mai{
+    color: black;
+    font-size: 40px;
+    padding-left: 30px;
+    margin: 10px;
+    transition: 0.5s;
+
+}
+#wht{
+    color: black;
+    font-size: 40px;
+    padding-left: 30px;
+    margin: 10px;
+    transition: 0.5s;
+}
+#fcb:hover{
+    color: #316FF6;
+}
+#mai:hover{
+    color: rgb(147, 0, 0);
+}
+#wht:hover{
+    color: #187b70;
+}
+#inst:hover{
+    color: #8a1c76;
+}

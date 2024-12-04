@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Formuler</title>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link href="formuler.css" rel="stylesheet">
+    </header>
+    <body>
+        <div class="container">
+        <form id="form" action="#">
+            <h1>Connectez-vous avec votre adresse e-mail ou inscrivez-vous pour devenir membre de Ben hassine shop</h1>
+            <label>Username</label>
+            <input type="text" id="User" placeholder="Entre your name"><i class='bx bx-user' id="n"></i>
+            <label>Email</label>
+            <input type="text" id="mail" placeholder="Entre your mail"><i class='bx bx-envelope' id="n" ></i>
+            <label>Password</label>
+            <input type="password" id="pass" placeholder="Entre your Password"><i class='bx bx-lock-alt' id="n" ></i>
+            <label>Password</label>
+            <input type="password" id="cpass" placeholder="Confirme your Password"><i class='bx bx-lock-alt' id="n"></i>
+            <div id="but">
+                <input type="checkbox"><span>Save account</span>
+                <input type="checkbox">
+                
+                <span>Agree with terms & conditions</span>
+            </div>
+            <button type="submit" id="b1">Sign up</button>
+            <button type="reset" id="b2">reset</button>
+            <button type="submit" id="b3" onclick="goBack">back</button>
+            
+        </form>
+        <div class="links">
+            <a href="https://www.instagram.com/montassar__9/"><i class='bx bxl-instagram' id="inst"></i></a> 
+            <a href="https://www.facebook.com/"><i class='bx bxl-facebook-circle' id="fcb" ></i></a>
+            <a href="https://mail.google.com/mail/u/0/#inbox"><i class='bx bxl-gmail' id="mai" ></i></a>
+            <a href="https://web.whatsapp.com/"><i class='bx bxl-whatsapp' id="wht"></i></a>
+        </div>
+    </div>
+    <script>
+        // JavaScript function to go back in browser history
+        function goBack() {
+          window.history.acc();
+        }
+      </script>
+    </body>
+    
+</html>
