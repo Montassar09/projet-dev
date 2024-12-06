@@ -140,8 +140,11 @@ body {
   }
   .btn-buy:hover{
     color: #333333;
-    transition: 1s;
+    transition: 0.5s;
     border-radius: 30px;
+    padding-left: 90px;
+    padding-right: 90px;
+    font-size: 30px;
   }
  .dimg h2 {
     position: absolute;
