@@ -104,10 +104,16 @@ button:hover{
     transition: 0.9s;
 
 }
+.back{
+    text-decoration: none;
+    color: rgb(130, 130, 130);
+}
+
 #b3:hover{
     background: #333;
     color: white;
 }
+
 #b2:hover{
     background: #333;
     color: white;
