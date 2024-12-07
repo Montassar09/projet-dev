@@ -4,8 +4,9 @@
         <title>Formuler</title>
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         <link href="formuler.css" rel="stylesheet">
+        <script src="formuler.js"></script>
     </header>
-    <body>
+    <body onLoad="bienvenue()">
         <div class="container">
         <form id="form" action="#">
             <h1>Connectez-vous avec votre adresse e-mail ou inscrivez-vous pour devenir membre de Ben hassine shop</h1>
@@ -18,12 +19,10 @@
             <label>Password</label>
             <input type="password" id="cpass" placeholder="Confirme your Password"><i class='bx bx-lock-alt' id="n"></i>
             <div id="but">
-                <input type="checkbox"><span>Save account</span>
-                <input type="checkbox">
-                
-                <span>Agree with terms & conditions</span>
+                <input type="checkbox" id="chekb1"><span>Save account</span>
+                <input type="checkbox" id="chekb2"><span>Agree with terms & conditions</span>
             </div>
-            <button type="submit" id="b1">Sign up</button>
+            <button type="submit" id="b1" onclick="verif()">Sign up</button>
             <button type="reset" id="b2">reset</button>
             <button type="submit" id="b3" onclick="goBack">back</button>
             
