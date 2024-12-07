@@ -5,20 +5,13 @@ function verif(){
     let b4 = document.getElementById("b4").checked;
     let n  = document.getElementById("name").textContent;
     let p  = document.getElementById("prix").textContent;
-    
-
-    
     if (!b1 && !b2 && !b3 && !b4) {
         alert("Vous choisir votre taille.");
         return false;
     }
     else{
         alert("votre article est : "+ n +" est votre prix : " +p);
-        
-        
-
     }
-
 }
 function verif1(){
     let b1 = document.getElementById("bt1").checked;
@@ -32,9 +25,6 @@ function verif1(){
         return false;
     }else{
         alert("votre article est : "+ n +" est votre prix : " +p);
-        
-        
-
     }
 }
 function verif2(){
@@ -50,9 +40,6 @@ function verif2(){
         }    
         else{
             alert("votre article est : "+ n +" est votre prix : " +p);
-            
-            
-    
         }
 }
 function verif3(){
@@ -68,9 +55,6 @@ function verif3(){
     }    
     else{
         alert("votre article est : "+ n +" est votre prix : " +p);
-        
-        
-
     }
 }
 function verif4(){
@@ -86,9 +70,6 @@ function verif4(){
     }    
     else{
         alert("votre article est : "+ n +" est votre prix : " +p);
-        
-        
-
     }
 }
 function verif5(){
@@ -104,9 +85,6 @@ function verif5(){
     }    
     else{
         alert("votre article est : "+ n +" est votre prix : " +p);
-        
-        
-
     }
 }
 function verif6(){
@@ -122,13 +100,8 @@ function verif6(){
     }    
     else{
         alert("votre article est : "+ n +" est votre prix : " +p);
-        
-        
-
     }
 }
-
-
 function verif7(){
     let b1 = document.getElementById("btt1").checked;
     let b2 = document.getElementById("btt2").checked;
@@ -142,9 +115,6 @@ function verif7(){
     }    
     else{
         alert("votre article est : "+ n +" est votre prix : " +p);
-        
-        
-
     }
 }
 function verif8(){
@@ -160,9 +130,6 @@ function verif8(){
     }   
     else{
         alert("votre article est : "+ n +" est votre prix : " +p);
-        
-        
-
     }     
 }
 function verif9(){
@@ -178,9 +145,6 @@ function verif9(){
     }    
     else{
         alert("votre article est : "+ n +" est votre prix : " +p);
-        
-        
-
     }
 }
 function verif10(){
@@ -196,9 +160,6 @@ function verif10(){
     }    
     else{
         alert("votre article est :"+ n +" est votre prix :" +p);
-        
-        
-
     }
 }
 function verif11(){
@@ -214,8 +175,5 @@ function verif11(){
     }    
     else{
         alert("votre article est : "+ n +" est votre prix : " +p);
-        
-        
-
     }
 }
