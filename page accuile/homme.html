@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <title>HOMME COLLECTION</title>
+    <script src="femme.js"></script>
 </head>
 <body>
     <header>
@@ -58,16 +59,16 @@
                     </div>
                   </div>
                   <div class="card-body">
-                    <h5 class="card-title">MANTEAU CONTENANT DE LA LAINE</h5>
-                    <p class="card-text">369,00 TND </p>
+                    <h5 class="card-title" id="name">MANTEAU CONTENANT DE LA LAINE</h5>
+                    <p class="card-text" id="prix">369,00 TND </p>
                     <div id="but">
-                        <input type="checkbox"><span> S </span>
-                        <input type="checkbox"><span> M </span>
-                        <input type="checkbox"><span> L </span>
-                        <input type="checkbox"><span> XL </span>
+                      <input type="checkbox" id="b1"><span> S </span>
+                      <input type="checkbox" id="b2"><span> M </span>
+                      <input type="checkbox" id="b3"><span> L </span>
+                      <input type="checkbox" id="b4"><span> XL </span>
   
                     </div>
-                    <a href="#" class="btn-buy">BUY</a>
+                    <a class="btn-buy" onclick="verif()">BUY</a>
                   </div>
                 </div>
               </div>
@@ -88,16 +89,16 @@
                     </div>
                   </div>
                   <div class="card-body">
-                    <h5 class="card-title">MANTEAU REMBOURRÉE LONGUE</h5>
-                    <p class="card-text">469,00 TND</p>
+                    <h5 class="card-title" id="name1">MANTEAU REMBOURRÉE LONGUE</h5>
+                    <p class="card-text" id="prix1">469,00 TND</p>
                     <div id="but">
-                        <input type="checkbox"><span> S </span>
-                        <input type="checkbox"><span> M </span>
-                        <input type="checkbox"><span> L </span>
-                        <input type="checkbox"><span> XL </span>
+                      <input type="checkbox" id="bt1"><span> S </span>
+                      <input type="checkbox" id="bt2"><span> M </span>
+                      <input type="checkbox" id="bt3"><span> L </span>
+                      <input type="checkbox" id="bt4"><span> XL </span>
   
                     </div>
-                    <a href="#" class="btn-buy">BUY</a>
+                    <a class="btn-buy" onclick="verif1()">BUY</a>
                   </div>
                 </div>
               </div>
@@ -118,16 +119,16 @@
                     </div>
                   </div>
                   <div class="card-body">
-                    <h5 class="card-title">MANTEAU MATELASSÉE À CAPUCHE</h5>
-                    <p class="card-text">369,00 TND </p>
+                    <h5 class="card-title" id="name2">MANTEAU MATELASSÉE À CAPUCHE</h5>
+                    <p class="card-text" id="prix2">369,00 TND </p>
                     <div id="but">
-                        <input type="checkbox"><span> S </span>
-                        <input type="checkbox"><span> M </span>
-                        <input type="checkbox"><span> L </span>
-                        <input type="checkbox"><span> XL </span>
+                      <input type="checkbox" id="btn1"><span> S </span>
+                      <input type="checkbox" id="btn2"><span> M </span>
+                      <input type="checkbox" id="btn3"><span> L </span>
+                      <input type="checkbox" id="btn4"><span> XL </span>
   
                     </div>
-                    <a href="#" class="btn-buy">BUY</a>
+                    <a  class="btn-buy" onclick="verif2()">BUY</a>
                   </div>
                   </div>
                 </div>
@@ -155,16 +156,16 @@
                       </div>
                     </div>
                     <div class="card-body">
-                      <h5 class="card-title">VESTE EFFET MOUTON BIMATIÈRE </h5>
-                      <p class="card-text"> 369,00 TND </p>
+                      <h5 class="card-title" id="name3">VESTE EFFET MOUTON BIMATIÈRE </h5>
+                      <p class="card-text" id="prix3"> 369,00 TND </p>
                       <div id="but">
-                        <input type="checkbox"><span> S </span>
-                        <input type="checkbox"><span> M </span>
-                        <input type="checkbox"><span> L </span>
-                        <input type="checkbox"><span> XL </span>
+                        <input type="checkbox" id="btns1"><span> S </span>
+                        <input type="checkbox" id="btns2"><span> M </span>
+                        <input type="checkbox" id="btns3"><span> L </span>
+                      <input type="checkbox" id="btns4"><span> XL </span>
   
                     </div>
-                      <a href="#" class="btn-buy">BUY</a>
+                    <a class="btn-buy" onclick="verif3()">BUY</a>
                     </div>
                   </div>
                 </div>
@@ -185,16 +186,16 @@
                       </div>
                     </div>
                     <div class="card-body">
-                      <h5 class="card-title">VESTE DE MOTARD EN SYNTHÉTIQUE</h5>
-                      <p class="card-text">319,00 TND</p>
+                      <h5 class="card-title" id="name4">VESTE DE MOTARD EN SYNTHÉTIQUE</h5>
+                      <p class="card-text" id="prix4">319,00 TND</p>
                       <div id="but">
-                        <input type="checkbox"><span> S </span>
-                        <input type="checkbox"><span> M </span>
-                        <input type="checkbox"><span> L </span>
-                        <input type="checkbox"><span> XL </span>
+                        <input type="checkbox" id="btnn1"><span> S </span>
+                        <input type="checkbox" id="btnn2"><span> M </span>
+                        <input type="checkbox" id="btnn3"><span> L </span>
+                        <input type="checkbox" id="btnn4"><span> XL </span>
   
                     </div>
-                      <a href="#" class="btn-buy">BUY</a>
+                    <a class="btn-buy" onclick="verif4()">BUY</a>
                     </div>
                   </div>
                 </div>
@@ -215,16 +216,16 @@
                       </div>
                     </div>
                     <div class="card-body">
-                      <h5 class="card-title">VESTE EN SYNTHÉTIQUE DOUBLE FACE</h5>
-                      <p class="card-text">429,00 TND</p>
+                      <h5 class="card-title" id="name5">VESTE EN SYNTHÉTIQUE DOUBLE FACE</h5>
+                      <p class="card-text" id="prix5">429,00 TND</p>
                       <div id="but">
-                        <input type="checkbox"><span> S </span>
-                        <input type="checkbox"><span> M </span>
-                        <input type="checkbox"><span> L </span>
-                        <input type="checkbox"><span> XL </span>
+                        <input type="checkbox" id="btb1"><span> S </span>
+                        <input type="checkbox" id="btb2"><span> M </span>
+                        <input type="checkbox" id="btb3"><span> L </span>
+                        <input type="checkbox" id="btb4"><span> XL </span>
   
                     </div>
-                      <a href="#" class="btn-buy">BUY</a>
+                    <a  class="btn-buy" onclick="verif5()">BUY</a>
                     </div>
                     </div>
                   </div>
@@ -252,16 +253,17 @@
                     </div>
                   </div>
                   <div class="card-body">
-                    <h5 class="card-title">SWEAT À CAPUCHE </h5>
-                    <p class="card-text"> 149,00 TND</p>
+                    <h5 class="card-title" id="name6">SWEAT À CAPUCHE </h5>
+                    <p class="card-text" id="prix6"> 149,00 TND</p>
                     <div id="but">
-                        <input type="checkbox"><span> S </span>
-                        <input type="checkbox"><span> M </span>
-                        <input type="checkbox"><span> L </span>
-                        <input type="checkbox"><span> XL </span>
+                      <input type="checkbox" id="bto1"><span> S </span>
+                      <input type="checkbox" id="bto2"><span> M </span>
+                      <input type="checkbox" id="bto3"><span> L </span>
+                      <input type="checkbox" id="bto4"><span> XL </span>
   
                     </div>
-                    <a href="#" class="btn-buy">BUY</a>
+                    <a  class="btn-buy" onclick="verif6()">BUY</a>
+
                   </div>
                 </div>
               </div>
@@ -282,16 +284,17 @@
                     </div>
                   </div>
                   <div class="card-body">
-                    <h5 class="card-title">SWEAT À CAPUCHE</h5>
-                    <p class="card-text">199,00 TND</p>
+                    <h5 class="card-title" id="name7">SWEAT À CAPUCHE</h5>
+                    <p class="card-text" id="prix7">199,00 TND</p>
                     <div id="but">
-                        <input type="checkbox"><span> S </span>
-                        <input type="checkbox"><span> M </span>
-                        <input type="checkbox"><span> L </span>
-                        <input type="checkbox"><span> XL </span>
+                      <input type="checkbox" id="btt1"><span> S </span>
+                      <input type="checkbox" id="btt2"><span> M </span>
+                      <input type="checkbox" id="btt3"><span> L </span>
+                      <input type="checkbox" id="btt4"><span> XL </span>
   
                     </div>
-                    <a href="#" class="btn-buy">BUY</a>
+                    <a class="btn-buy" onclick="verif7()">BUY</a>
+
                   </div>
                 </div>
               </div>
@@ -312,16 +315,16 @@
                     </div>
                   </div>
                   <div class="card-body">
-                    <h5 class="card-title">SWEAT DÉLAVÉ IMPRIMÉ</h5>
-                    <p class="card-text">219,00 TND</p>
+                    <h5 class="card-title" id="name8">SWEAT DÉLAVÉ IMPRIMÉ</h5>
+                    <p class="card-text" id="prix8">219,00 TND</p>
                     <div id="but">
-                        <input type="checkbox"><span> S </span>
-                        <input type="checkbox"><span> M </span>
-                        <input type="checkbox"><span> L </span>
-                        <input type="checkbox"><span> XL </span>
+                      <input type="checkbox" id="btp1"><span> S </span>
+                      <input type="checkbox" id="btp2"><span> M </span>
+                      <input type="checkbox" id="btp3"><span> L </span>
+                      <input type="checkbox" id="btp4"><span> XL </span>
   
                     </div>
-                    <a href="#" class="btn-buy">BUY</a>
+                    <a  class="btn-buy" onclick="verif8()">BUY</a>
                   </div>
                   </div>
                 </div>
@@ -349,16 +352,16 @@
                       </div>
                     </div>
                     <div class="card-body">
-                      <h5 class="card-title">JEANS STRAIGHT FIT </h5>
-                      <p class="card-text"> 159,00 TND</p>
+                      <h5 class="card-title" id="name9">JEANS STRAIGHT FIT </h5>
+                      <p class="card-text" id="prix9"> 159,00 TND</p>
                       <div id="but">
-                        <input type="checkbox"><span> S </span>
-                        <input type="checkbox"><span> M </span>
-                        <input type="checkbox"><span> L </span>
-                        <input type="checkbox"><span> XL </span>
+                        <input type="checkbox" id="bttn1"><span> S </span>
+                        <input type="checkbox" id="bttn2"><span> M </span>
+                        <input type="checkbox" id="bttn3"><span> L </span>
+                      <input type="checkbox" id="bttn4"><span> XL </span>
   
                     </div>
-                      <a href="#" class="btn-buy">BUY</a>
+                    <a  class="btn-buy" onclick="verif9()">BUY</a>
                     </div>
                   </div>
                 </div>
@@ -379,16 +382,17 @@
                       </div>
                     </div>
                     <div class="card-body">
-                      <h5 class="card-title">PANTALON STYLE MILITAIRE </h5>
-                      <p class="card-text">199,00 TND</p>
+                      <h5 class="card-title" id="name10">PANTALON STYLE MILITAIRE </h5>
+                      <p class="card-text" id="prix10">199,00 TND</p>
                       <div id="but">
-                        <input type="checkbox"><span> S </span>
-                        <input type="checkbox"><span> M </span>
-                        <input type="checkbox"><span> L </span>
-                        <input type="checkbox"><span> XL </span>
+                        <input type="checkbox" id="bts1"><span> S </span>
+                        <input type="checkbox" id="bts2"><span> M </span>
+                        <input type="checkbox" id="bts3"><span> L </span>
+                      <input type="checkbox" id="bts4"><span> XL </span>
   
                     </div>
-                      <a href="#" class="btn-buy">BUY</a>
+                    <a  class="btn-buy" onclick="verif10()">BUY</a>
+
                     </div>
                   </div>
                 </div>
@@ -409,16 +413,16 @@
                       </div>
                     </div>
                     <div class="card-body">
-                      <h5 class="card-title">JEANS STRAIGHT FIT</h5>
-                      <p class="card-text">159,00 TND</p>
+                      <h5 class="card-title" id="name11">JEANS STRAIGHT FIT</h5>
+                      <p class="card-text" id="prix11">159,00 TND</p>
                       <div id="but">
-                        <input type="checkbox"><span> S </span>
-                        <input type="checkbox"><span> M </span>
-                        <input type="checkbox"><span> L </span>
-                        <input type="checkbox"><span> XL </span>
+                        <input type="checkbox" id="btx1"><span> S </span>
+                        <input type="checkbox" id="btx2"><span> M </span>
+                        <input type="checkbox" id="btx3"><span> L </span>
+                      <input type="checkbox" id="btx4"><span> XL </span>
   
                     </div>
-                      <a href="#" class="btn-buy">BUY</a>
+                    <a  class="btn-buy" onclick="verif11()">BUY</a>
                     </div>
                     </div>
                   </div>
