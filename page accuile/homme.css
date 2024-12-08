@@ -28,6 +28,10 @@ body {
     color: white;
     padding-top: 5px;
   }
+  .btlogo{
+    text-decoration: none;
+  }
+   
 
   header nav ul {
     list-style: none;

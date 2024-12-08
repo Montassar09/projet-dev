@@ -10,7 +10,7 @@ function verif(){
         return false;
     }
     else{
-        alert("votre article est : "+ n +" est votre prix : " +p);
+        alert("Achat effectué avec succès ✔️ votre article est : "+ n +" est votre prix : " +p+" merci pour votre achat 😍");
     }
 }
 function verif1(){
@@ -24,7 +24,7 @@ function verif1(){
         alert("Vous choisir votre taille.");
         return false;
     }else{
-        alert("votre article est : "+ n +" est votre prix : " +p);
+        alert("Achat effectué avec succès ✔️ votre article est : "+ n +" est votre prix : " +p+" merci pour votre achat 😍");
     }
 }
 function verif2(){
@@ -39,7 +39,7 @@ function verif2(){
             return false;
         }    
         else{
-            alert("votre article est : "+ n +" est votre prix : " +p);
+            alert("Achat effectué avec succès ✔️ votre article est : "+ n +" est votre prix : " +p+" merci pour votre achat 😍");
         }
 }
 function verif3(){
@@ -54,7 +54,7 @@ function verif3(){
         return false;
     }    
     else{
-        alert("votre article est : "+ n +" est votre prix : " +p);
+        alert("Achat effectué avec succès ✔️ votre article est : "+ n +" est votre prix : " +p+" merci pour votre achat 😍");
     }
 }
 function verif4(){
@@ -69,7 +69,7 @@ function verif4(){
         return false;
     }    
     else{
-        alert("votre article est : "+ n +" est votre prix : " +p);
+        alert("Achat effectué avec succès ✔️ votre article est : "+ n +" est votre prix : " +p+" merci pour votre achat 😍");
     }
 }
 function verif5(){
@@ -84,7 +84,7 @@ function verif5(){
         return false;
     }    
     else{
-        alert("votre article est : "+ n +" est votre prix : " +p);
+        alert("Achat effectué avec succès ✔️ votre article est : "+ n +" est votre prix : " +p+" merci pour votre achat 😍");
     }
 }
 function verif6(){
@@ -99,7 +99,7 @@ function verif6(){
         return false;
     }    
     else{
-        alert("votre article est : "+ n +" est votre prix : " +p);
+        alert("Achat effectué avec succès ✔️ votre article est : "+ n +" est votre prix : " +p+" merci pour votre achat 😍");
     }
 }
 function verif7(){
@@ -114,7 +114,7 @@ function verif7(){
         return false;
     }    
     else{
-        alert("votre article est : "+ n +" est votre prix : " +p);
+        alert("Achat effectué avec succès ✔️ votre article est : "+ n +" est votre prix : " +p+" merci pour votre achat 😍");
     }
 }
 function verif8(){
@@ -129,7 +129,7 @@ function verif8(){
         return false;
     }   
     else{
-        alert("votre article est : "+ n +" est votre prix : " +p);
+        alert("Achat effectué avec succès ✔️ votre article est : "+ n +" est votre prix : " +p+" merci pour votre achat 😍");
     }     
 }
 function verif9(){
@@ -144,7 +144,7 @@ function verif9(){
         return false;
     }    
     else{
-        alert("votre article est : "+ n +" est votre prix : " +p);
+        alert("Achat effectué avec succès ✔️ votre article est : "+ n +" est votre prix : " +p+" merci pour votre achat 😍");
     }
 }
 function verif10(){
@@ -159,7 +159,7 @@ function verif10(){
         return false;
     }    
     else{
-        alert("votre article est :"+ n +" est votre prix :" +p);
+        alert("Achat effectué avec succès ✔️ votre article est :"+ n +" est votre prix :" +p+" merci pour votre achat 😍");
     }
 }
 function verif11(){
@@ -174,6 +174,6 @@ function verif11(){
         return false;
     }    
     else{
-        alert("votre article est : "+ n +" est votre prix : " +p);
+        alert("Achat effectué avec succès ✔️ votre article est : "+ n +" est votre prix : " +p+" merci pour votre achat 😍");
     }
 }
