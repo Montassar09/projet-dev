@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.9;
+  }
+  header {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    
+  }
+
+  
+.logo {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+  }
+.btlogo{
+    text-decoration: none;
+  }
+   
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    gap: 20px;
+    padding-left: 700px;
+ 
+    
+  }
+  
+  header nav ul li {
+    margin-left: 30px;
+    
+    
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    
+    
+  }
+  header nav ul li :hover{
+  text-decoration: underline;
+    
+  }
+h2 {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 110px;
+    font-weight: bold;
+    font-family: 'Zara';
+  }
+  h1{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: rgb(169, 92, 15);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Zara';
+  }
