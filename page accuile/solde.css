@@ -59,17 +59,17 @@ header nav ul {
   text-decoration: underline;
     
   }
-h2 {
+h2{
     position: absolute;
     top: 20%;
     left: 30%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 110px;
     font-weight: bold;
     font-family: 'Zara';
   }
-  h1{
+h1 {
     position: absolute;
     top: 40%;
     left: 30%;
