@@ -69,9 +69,9 @@ h2{
     font-weight: bold;
     font-family: 'Zara';
   }
-h1 {
+h1{
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 30%;
     transform: translate(-50%, -50%);
     color: rgb(169, 92, 15);
@@ -79,3 +79,48 @@ h1 {
     font-weight: bold;
     font-family: 'Zara';
   }
+h4{
+    font-family: 'zara';
+  }
+.card-title{
+    color:rgb(169, 92, 15);
+    font-family:'zara';
+    font-size: 40px;
+  }
+  .card-text{
+    color:rgb(0, 0, 0);
+  }
+span{
+  font-size: larger;
+}
+.rp{
+  text-decoration: line-through;
+}
+.sp{
+  color: green;
+}
+.btn-buy{
+  color: rgb(0, 0, 0);
+  font-size:20px;
+  cursor: pointer;
+  text-decoration: none;
+  border: solid;
+  border-radius: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  transition: 1s;
+}
+.btn-buy:hover{
+  color:rgb(169, 92, 15);
+  transition: 0.5s;
+  border-radius: 30px;
+  padding-left: 90px;
+  padding-right: 90px;
+  font-size: 30px;
+}
+.image{
+  transition: transform 0.5s;
+}
+.image:hover{
+  transform: scale(0.9);
+}
