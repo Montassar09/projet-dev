@@ -24,8 +24,20 @@
         </nav>
   
         <div class="search-bar">
-            <input type="text" placeholder="Rechercher des vêtements..." id="search-input">
-            <button type="button" id="search-button"><i class='bx bx-search' ></i></button>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              SEARCH MODELE
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item active" href="#VESTES">VESTES</a></li>
+              <li><a class="dropdown-item" href="#SWEAT">SWEAT</a></li>
+              <li><a class="dropdown-item" href="#JEANS">JEANS</a></li>
+              <li><a class="dropdown-item" href="#BLOUSONS">BLOUSONS</a></li>
+
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">BACK</a></li>
+            </ul>
+          </div>
         </div>
 
         <div class="insc">
@@ -39,7 +51,7 @@
           <h2>ENFANT COLLECTION</h2>
         </div>
        <form action="clothes-homme">
-        <section class="ligne1">
+        <section class="ligne1" id="VESTES">
           <div class="container text-center">
             <div class="row align-items-start">
 
@@ -115,7 +127,7 @@
               </div>
             </div>
           </section>
-          <section class="ligne2">
+          <section class="ligne2" id="SWEAT">
             <div class="container text-center">
               <div class="row align-items-start">
                 
@@ -191,7 +203,7 @@
                 </div>
               </div>
             </section>
-        <section class="ligne3">
+        <section class="ligne3" id="JEANS">
           <div class="container text-center">
             <div class="row align-items-start">
               
@@ -267,7 +279,7 @@
               </div>
             </div>
           </section>
-        <section class="ligne4">
+        <section class="ligne4" id="BLOUSONS">
             <div class="container text-center">
               <div class="row align-items-start">
                 
@@ -287,7 +299,7 @@
                       </div>
                     </div>
                     <div class="card-body">
-                      <h5 class="card-title" id="name9">JBLOUSON DOUBLE FACE</h5>
+                      <h5 class="card-title" id="name9">BLOUSON DOUBLE FACE</h5>
                       <p class="card-text" id="prix9">219,00 TND</p>
                       <a class="btn-buy" onclick="verif9()">BUY</a>
                     </div>

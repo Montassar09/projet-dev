@@ -21,17 +21,31 @@
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
+          
         </nav>
   
-        <div class="search-bar">
-            <input type="text" placeholder="Rechercher des vêtements..." id="search-input">
-            <button type="button" id="search-button"><i class='bx bx-search' ></i></button>
-        </div>
+        <div class="search">
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              SEARCH MODELE
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item active" href="#MANTEAUS">MANTEAUS</a></li>
+              <li><a class="dropdown-item" href="#VESTES">VESTES</a></li>
+              <li><a class="dropdown-item" href="#SWEATS">SWEATS</a></li>
+              <li><a class="dropdown-item" href="#JEANS">JEANS</a></li>
 
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">BACK</a></li>
+            </ul>
+          </div>
+        </div>
+        
         <div class="insc">
               <a href="formuler.html" class="inscrire"><i class='bx bx-user'></i></i></a>
               <a href="Accuile.html" class="menu"><i class='bx bx-home'></i></a>
         </div>
+        
       </header>
       <section>
         <div class="dimg">
@@ -39,7 +53,7 @@
           <h2>HOMME COLLECTION</h2>
         </div>
        <form action="clothes-homme">
-        <section class="ligne1">
+        <section class="ligne1" id="MANTEAUS">
           <div class="container text-center">
             <div class="row align-items-start">
 
@@ -136,7 +150,7 @@
               </div>
             </div>
           </section>
-          <section class="ligne2">
+          <section class="ligne2" id="VESTES">
             <div class="container text-center">
               <div class="row align-items-start">
                 
@@ -233,7 +247,7 @@
                 </div>
               </div>
             </section>
-        <section class="ligne3">
+        <section class="ligne3" id="SWEATS">
           <div class="container text-center">
             <div class="row align-items-start">
               
@@ -332,7 +346,7 @@
               </div>
             </div>
           </section>
-        <section class="ligne4">
+        <section class="ligne4" id="JEANS">
             <div class="container text-center">
               <div class="row align-items-start">
                 

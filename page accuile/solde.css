@@ -124,3 +124,13 @@ span{
 .image:hover{
   transform: scale(0.9);
 }
+.inscrire , .menu{
+  text-decoration: none;
+  color: white;
+}
+.menu :hover{
+  text-decoration: underline;
+}
+.inscrire :hover{
+  text-decoration: underline;
+}
