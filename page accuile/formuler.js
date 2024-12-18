@@ -10,30 +10,55 @@ function verif(){
     let b1 = document.getElementById("chekb1").checked;
     let b2 = document.getElementById("chekb2").checked;
     if (user.length==0){
-         alert("il faut remplir ton nom");return false; 
+        document.getElementById("u").innerText = "Vous devez Ecrire votre nom";return false;
         
+    }else{
+        document.getElementById("u").innerText = "";
+
     }
     if (!mail.includes("@gmail.com")) {
-        alert("Please enter a valid email address containing '@'.");return false;
+        document.getElementById("m").innerText = "Vous devez Verivier votre mail.";return false;
+    }else{
+        document.getElementById("m").innerText = "";
+
     }
     if (pass.length < 3) {
-        alert("Le mot de passe doit contenir au moins 8 caractères.");
-        return false;
+        document.getElementById("p").innerText = "Vous devez Verivier votre mot de passe.";return false;
+
+    }else{
+        document.getElementById("p").innerText = "";
     }
     if (pass!=cpass){
-        alert("verifier votre mot de passe.");return false;
+        document.getElementById("pa").innerText = "Vous devez Verivier votre mot de passe.";return false;
+
+    }else{
+        document.getElementById("pa").innerText = "";
     }
-    if(num.length!=16){
-        alert("verifier votre num de card.");
-        return false;
+    if(num.length!=3){
+        document.getElementById("nu").innerText = "Vous devez Verivier votre numero de card.";return false;
+
+    }else{
+        document.getElementById("nu").innerText = "";
     }
 
     if (!b1 || !b2) {
-        alert("Vous devez accepter les termes et conditions et sauvegarder votre compte.");
-        return false;
+        document.getElementById("bt").innerText = "Vous devez accepter les termes et conditions et sauvegarder votre compte.";return false;
+    }else{
+        document.getElementById("bt").innerText = "";
+    }
+    if(user.length!=0 && pass.length > 3 &&  pass==cpass && num.length==3 && b1 || b2 && mail.includes("@gmail.com")){
+        alert("Votre inscrir est affectue avec succses ");
     }
     
 }
+
+
 function resetForm() {
   document.getElementById("form").reset();
+  document.getElementById("u").innerText = "";
+  document.getElementById("m").innerText = "";
+  document.getElementById("p").innerText = "";
+  document.getElementById("pa").innerText = "";
+  document.getElementById("nu").innerText = "";
+  document.getElementById("bt").innerText = "";
 }
