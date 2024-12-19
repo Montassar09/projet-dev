@@ -21,7 +21,7 @@ body {
 
   
  .logo {
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: bold;
     text-align: center;
     background-color: #333;
@@ -39,7 +39,7 @@ body {
     justify-content: center;
     margin: 10px;
     padding: 10px;
-    gap: 17px;
+    gap: 15px;
  
     
   }
@@ -66,7 +66,7 @@ body {
     align-items: center;
     margin: 20px auto;
     width: 100%;
-    max-width: 700px;
+    max-width: 600px;
   }
   
   .search-bar input[type="text"] {
@@ -81,7 +81,7 @@ body {
   }
   
   .search-bar input[type="text"]:hover {
-    width: 80%;
+    width: 60%;
     border-color: #333;
     transition: width 0.5s ease, border-color 0.3s ease;
   }

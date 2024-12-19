@@ -18,21 +18,21 @@ body {
     
   }
 .btn-primary {
-    background-color: #9d7511; /* Couleur de fond */
-    color: white; /* Couleur du texte */
-    border: none; /* Coins arrondis */
+    background-color: #9d7511; 
+    color: white; 
+    border: none; 
     background-color: transparent;
     padding-left: 5px;
 }
 .btn-primary:hover {
-  background-color: #69540726; /* Couleur au survol */
+  background-color: #69540726; 
 }
 .btn-primary .logo {
   font-weight: bold;
-  font-size: 17px; /* Taille plus petite pour le logo */
+  font-size: 17px; 
 }
 .btn-primary .logo span {
-  color: #333; /* Couleur pour "SHOPE" */
+  color: #333;
 }
 .logo {
     font-size: 1.1rem;
@@ -121,17 +121,18 @@ span{
   text-decoration: none;
   border: solid;
   border-radius: 10px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding: 3px 50px;
   transition: 1s;
 }
 .btn-buy:hover{
   color:rgb(169, 92, 15);
   transition: 0.5s;
   border-radius: 30px;
-  padding-left: 90px;
-  padding-right: 90px;
-  font-size: 30px;
+  padding: 0 90px;
+  font-size: 20px;
+}
+.card-body{
+color: rgb(0, 48, 0);
 }
 .image{
   transition: transform 0.5s;
@@ -152,4 +153,45 @@ span{
 h5{
   color: #da7211;
   font-size: bold;
+} footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+  top: 0px;
+}
+footer h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+footer table {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+footer th, footer td {
+  padding: 8px 12px;
+  text-align: left;
+}
+footer th {
+  
+  font-weight: bold;
+}
+footer td a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer td a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  margin-top: 10px;
+}
+h1{
+  text-align: center;
 }

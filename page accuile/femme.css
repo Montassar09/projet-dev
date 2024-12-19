@@ -18,21 +18,7 @@ body {
     width: 100%;
     
   }
-
   
- .logo {
-    font-size: 1.1rem;
-    font-weight: bold;
-    text-align: center;
-    background-color: #333;
-    color: white;
-    padding-top: 5px;
-  }
-  .btlogo{
-    text-decoration: none;
-  }
-   
-
   header nav ul {
     list-style: none;
     display: flex;
@@ -60,12 +46,47 @@ body {
   text-decoration: underline;
     
   }
- 
-  
-  
-  
-  
-  
+  .btn-primary {
+    color: rgb(133, 133, 133); 
+    border: none;
+    background-color: transparent;
+    padding-left: 5px;
+    background-color: transparent !important; 
+    border: none !important;
+
+}
+.btn-primary:hover {
+  background-color: #00000026; 
+}
+.btn-primary .logo {
+  font-weight: bold;
+  font-size: 17px; 
+}
+.btn-primary .logo span {
+  color: #333333; 
+  background-color: white;
+  padding: 3px;
+}
+header p{
+  font-size: 18px;
+  }
+header h5 {
+    color: #004a8b;
+  }
+
+ .logo {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding-top: 5px;
+    border: none;
+  }
+  .btlogo{
+    text-decoration: none;
+  }
+   
    .inscrire {
     padding: 10px 20px;
     background-color: #333;
@@ -204,3 +225,4 @@ body {
   h1{
     text-align: center;
   }
+  
