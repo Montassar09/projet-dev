@@ -14,8 +14,7 @@ body {
     position: fixed;
     z-index: 1000;
     top: 0;
-    width: 100%;
-    
+    width: 100%; 
   }
 .btn-primary {
     background-color: #9d7511; 
@@ -53,26 +52,19 @@ header nav ul {
     margin: 10px;
     padding: 10px;
     gap: 20px;
-    padding-left: 700px;
- 
-    
+    padding-left: 650px;
   }
   
   header nav ul li {
-    margin-left: 30px;
-    
-    
+    margin-left: 30px;  
   }
   
   header nav ul li a {
     color: #fff;
-    text-decoration: none;
-    
-    
+    text-decoration: none; 
   }
   header nav ul li :hover{
-  text-decoration: underline;
-    
+  text-decoration: underline; 
   }
 h2{
     position: absolute;
@@ -124,13 +116,6 @@ span{
   padding: 3px 50px;
   transition: 1s;
 }
-.btn-buy:hover{
-  color:rgb(169, 92, 15);
-  transition: 0.5s;
-  border-radius: 30px;
-  padding: 0 90px;
-  font-size: 20px;
-}
 .card-body{
 color: rgb(0, 48, 0);
 }
@@ -171,7 +156,6 @@ footer table {
   margin: 0 auto;
   border-collapse: collapse;
 }
-
 footer th, footer td {
   padding: 8px 12px;
   text-align: left;
@@ -194,4 +178,13 @@ footer p {
 }
 h1{
   text-align: center;
+}
+
+@media (max-width: 480px) {
+  .text-overlay h2 {
+      font-size: 1.2rem; /* Further adjust for very small screens */
+  }
+  .text-overlay h1 {
+      font-size: 2rem; /* Further adjust for very small screens */
+  }
 }

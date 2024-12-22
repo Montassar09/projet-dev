@@ -16,7 +16,6 @@ body {
     z-index: 1000;
     top: 0;
     width: 100%;
-    
   }
 
   .btn-primary {
@@ -26,38 +25,24 @@ body {
     padding-left: 5px;
     background-color: transparent !important; 
     border: none !important;
-
-}
-.btn-primary:hover {
-  background-color: #00000026; 
 }
 .btn-primary .logo {
   font-weight: bold;
   font-size: 17px; 
 }
-.btn-primary .logo span {
-  color: #333333; 
-  background-color: white;
+span{
+  background-color: #ffffff;
+  color: #333;
   padding: 3px;
 }
+
 header p{
 font-size: 18px;
 }
 header h5 {
   color: #790e00;
 }
- .logo {
-    font-size: 1.1rem;
-    font-weight: bold;
-    text-align: center;
-    background-color: #333;
-    color: white;
-    padding-top: 5px;
-  }
-  .btlogo{
-    text-decoration: none;
-  }
-   
+
   header nav ul {
     list-style: none;
     display: flex;
@@ -65,21 +50,15 @@ header h5 {
     margin: 10px;
     padding: 10px;
     gap: 17px;
- 
-    
   }
   
   header nav ul li {
     margin-left: 20px;
-    
-    
   }
   
   header nav ul li a {
     color: #fff;
     text-decoration: none;
-    
-    
   }
   header nav ul li :hover{
   text-decoration: underline;
@@ -95,8 +74,6 @@ header h5 {
     font-size: 20px;
     transition: background-color 0.3s ease;
   }
-  
-
   .inscrire{
     font-style: none;
     background-color: #333;
@@ -120,7 +97,6 @@ header h5 {
     font-size: 25px;
     outline: none;
     transition: width 0.5s ease, border-color 0.3s ease;
-
   }
   .menu :hover {
     background-color: #333;
@@ -158,11 +134,7 @@ header h5 {
     padding: 5px 10px;
     font-family:Arial, Helvetica, sans-serif;
   }
-  span{
-    background-color: #ddd;
-    color: #333;
-    padding: 3px;
-  }
+
   .card-img-top{
     margin: 10px;
     transition: transform 0.5s;
@@ -172,9 +144,7 @@ header h5 {
   }
   .p1{
     margin: 20px;
-    
   }
-  
   footer {
     background: #333;
     color: #fff;
@@ -186,19 +156,16 @@ header h5 {
     font-size: 1.5rem;
     margin-bottom: 10px;
   }
-  
   footer table {
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
     border-collapse: collapse;
   }
-  
   footer th, footer td {
     padding: 8px 12px;
     text-align: left;
   }
-  
   footer th {
   
     font-weight: bold;
@@ -207,11 +174,58 @@ header h5 {
     color: #fff;
     text-decoration: none;
   }
-  
   footer td a:hover {
     text-decoration: underline;
   }
-  
   footer p {
     margin-top: 10px;
   }
+  @media (max-width: 992px) {
+    .col {
+        flex: 1 1 calc(50% - 20px);
+    }
+
+    .card-title {
+        font-size: 1.1em;
+    }
+
+    .card-text {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 768px) {
+    .col {
+        flex: 1 1 100%;
+    }
+
+    .card-title {
+        font-size: 1em;
+    }
+
+    .card-text {
+        font-size: 0.85em;
+    }
+    .btn-buy {
+        padding: 8px 15px;
+        font-size: 0.9em;
+    }
+}
+@media (max-width: 576px) {
+    .card-body {
+        padding: 10px;
+    }
+
+    .card-title {
+        font-size: 0.9em;
+    }
+
+    .card-text {
+        font-size: 0.8em;
+    }
+
+    .btn-buy {
+        padding: 6px 12px;
+        font-size: 0.8em;
+    }
+}

@@ -14,7 +14,6 @@ body{
     align-items: center;
     min-height: 100vh;
     background: #4f4e4e;
-
 }
 #form{
     width: 500px;
@@ -22,8 +21,6 @@ body{
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 10px 20px 30px rgba(0,0,0,0.1);
-    
-
 }
 h1{
     font-size: 20px;
@@ -40,8 +37,7 @@ label{
     display: block;
     margin: 10px 0px 5px 0px ;
     font-weight: 600;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
 }
 input{
     width: 90%;
@@ -57,7 +53,6 @@ input[type="checkbox"]{
     margin-bottom: 20px;
     margin-top: 15px;
     transition: 0.4s;
-
 }
 input:hover{
     font-size: large;
@@ -121,12 +116,9 @@ button:hover{
 #n{
     transition: 0.5s;
 }
-
 #n:hover{
     color: #187b70;
 }
-
-
 #inst{
     color: black;
     font-size: 40px;
@@ -138,8 +130,7 @@ button:hover{
     font-size: 40px;
     padding-left: 30px;
     margin: 10px;
-    transition: 0.5s;
-    
+    transition: 0.5s;   
 }
 #mai{
     color: black;
@@ -147,7 +138,6 @@ button:hover{
     padding-left: 30px;
     margin: 10px;
     transition: 0.5s;
-
 }
 #wht{
     color: black;

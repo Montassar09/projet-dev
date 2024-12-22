@@ -15,11 +15,8 @@ body {
     position: fixed;
     z-index: 1000;
     top: 0;
-    width: 100%;
-    
+    width: 100%; 
   }
-
-  
  .logo {
     font-size: 1.1rem;
     font-weight: bold;
@@ -31,8 +28,6 @@ body {
   .btlogo{
     text-decoration: none;
   }
-   
-
   header nav ul {
     list-style: none;
     display: flex;
@@ -40,30 +35,17 @@ body {
     margin: 10px;
     padding: 10px;
     gap: 17px;
- 
-    
   }
-  
   header nav ul li {
     margin-left: 20px;
-    
-    
-  }
-  
+  } 
   header nav ul li a {
     color: #fff;
-    text-decoration: none;
-    
-    
+    text-decoration: none;    
   }
   header nav ul li :hover{
-  text-decoration: underline;
-    
+  text-decoration: underline;  
   }
-
-
-  
-
 .inscrire {
     padding: 10px 20px;
     background-color: #333;
@@ -74,8 +56,6 @@ body {
     font-size: 20px;
     transition: background-color 0.3s ease;
   }
-  
-
   .inscrire{
     font-style: none;
     background-color: #333;
@@ -99,7 +79,6 @@ body {
     font-size: 25px;
     outline: none;
     transition: width 0.5s ease, border-color 0.3s ease;
-
   }
   .menu :hover {
     background-color: #333;
@@ -150,10 +129,8 @@ body {
     transform: scale(1.04);
   }
   .p1{
-    margin: 20px;
-    
+    margin: 20px; 
   }
-  
   footer {
     background: #333;
     color: #fff;
@@ -165,32 +142,26 @@ body {
     font-size: 1.5rem;
     margin-bottom: 10px;
   }
-  
   footer table {
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
     border-collapse: collapse;
   }
-  
   footer th, footer td {
     padding: 8px 12px;
     text-align: left;
   }
-  
   footer th {
-  
     font-weight: bold;
   }
   footer td a {
     color: #fff;
     text-decoration: none;
   }
-  
   footer td a:hover {
     text-decoration: underline;
   }
-  
   footer p {
     margin-top: 10px;
   }
